@@ -1,0 +1,45 @@
+html {
+    background-color: black;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-position: center;
+}
+p, h3 {
+    font-display: 'Montserrat:300', sans-serif;
+    color: #385f71
+}
+h1, h2, h4 {
+    color: #8f754f
+}
+
+.gr {
+    color: #385f71
+}
+
+.hr {
+    color: white;
+}
+
+a {
+    text-decoration-color: aqua;
+    text-decoration: none;
+}
+
+#introduction {
+    position: absolute;
+    left: 750px;
+    background: white;
+    height: 1000px;
+    padding-right: 50px;
+    padding-left: 100px;
+}
+#technical {
+    position: absolute
+    left: 50px;
+    background: black;
+    height: 1000px;
+    padding-left: 50px;
+    padding-right: 100px;
+
+}
