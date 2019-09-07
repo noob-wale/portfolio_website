@@ -12,13 +12,17 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
-html {
-    background-color: black;
+  body {
+      font-family: 'Montserrat', sans-serif;
+  }
+
+h1, h2, h4 {
+    color: #8f754f;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-position: center;
+a {
+    text-decoration: none;
+    color: white;
 }
 
 p, h3 {
@@ -26,50 +30,41 @@ p, h3 {
     color: #385f71
 }
 
-h1, h2, h4 {
-    color: #8f754f
+img {
+    position: relative;
+    top: 10px;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    border: none;
+    border: 1px thin wheat;
 }
 
-.gr {
-    color: #385f71
-}
-
-.hr {
-    color: white;
-}
-
-.hl {
-    display: inline-block;
-    border: 2px solid white;
-    word-spacing: 5em;
-}
-
-.hul {
-    margin: 30px auto;
-    padding: 0 20px;
-    text-align: center;
-    color: white;
-}
-
-#container {
-    align-content: center
+.container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 100%;
+    grid-column-gap: 50px;
+    align-content: center;
 }
 
 .introduction {
-    position: absolute;
-    left: 750px;
-    top: 100px;
-    background: white;
-    height: 700px;
-    padding-right: 50px;
-    padding-left: 100px;
+    position: relative;
+    left: 50px;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    border: 1px solid #302830;
 }
 
-#technical {
-    position: absolute;
-    background: black;
-    top: 100px;
-    height: 700px;
-    padding-left: 50px;
-    padding-right: 100px;
+.technical {
+    position: relative;
+    background-color: black;
+    left: 150px;
+    color: white;
+    border: none;
+    border: 1px solid #ecbcec;
+    text-align: center;
+    border-radius: 20px;
 }
