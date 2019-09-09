@@ -14,10 +14,53 @@
 
   body {
       font-family: 'Montserrat', sans-serif;
+      background-color: aliceblue;
+      background: url(../bg-left.png);
+      background-repeat: no-repeat;
+      text-align: center;
   }
 
 h1, h2, h4 {
     color: #8f754f;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 43.8px;
+}
+
+.introduction p {
+    font-size: 14.6px;
+    color: blue;
+}
+
+.mystory p {
+    font-size: 9.3px;
+}
+
+h3 {
+    font-size: 9.5px;
+    color: #385f71;
+}
+
+h4, ul {
+    font-size: 10px;
+}
+
+ul {
+    color: #385f71;
+}
+
+img {
+    position: relative;
+    height: 400px;
+    width: 280px;
+    text-align: left;
+    right: 425px;
+    bottom: 300px;
 }
 
 a {
@@ -25,52 +68,67 @@ a {
     color: white;
 }
 
-p, h3 {
-    font-display: 'Montserrat:300', sans-serif;
-    color: #385f71
-}
-
-img {
-    position: relative;
-    top: 10px;
-    height: 400px;
-    width: 300px;
-    border: none;
-    border: 1px thin wheat;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 5fr 3fr;
-    grid-template-rows: 100%;
-    grid-column-gap: 0px;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-    align-items: stretch;
-    align-content: center;
-    grid-auto-flow: column;
-}
-
 .introduction {
     position: relative;
     display: inline-block;
-    left: 0px;
-    border-color: black;
-    border-radius: 0px;
-    text-align: center;
-    border: none;
-    border: 1px solid #302830;
+    left: 500px;
+    text-align: left;
+}
+
+.mystory {
+    position: relative;
+    display: inline-block;
+    left: 140px;
+    top: 100px;
+    text-align: left;
+}
+
+.workexp {
+    position: relative;
+    display: inline-block;
+    right: 500px;
+    top: 200px;
+    text-align: left;
+}
+
+.eduinfo {
+    position: relative;
+    display: inline-block;
+    left: 5px;
+    top: 300px;
+    text-align: left;
+}
+
+.tech-list {
+    color: white;
 }
 
 .technical {
     position: relative;
     display: inline-block;
-    background-color: black;
-    left: 0px;
+    right: 250px;
+    bottom: 350px;
     color: white;
-    border: none;
-    border: 1px solid #ecbcec;
-    text-align: center;
-    border-radius: 0px;
+    text-align: left;
+}
+
+.contact {
+    position: relative;
+    display: inline-block;
+    right: 500px;
+    bottom: 200px;
+    text-align: left;
+}
+
+.reference {
+    position: relative;
+    display: inline-block;
+    right: 680px;
+    bottom: 10px;
+    text-align: left;
+}
+
+p, h3 {
+    font-display: 'Montserrat:300', sans-serif;
+    color: #385f71
 }
