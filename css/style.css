@@ -33,7 +33,6 @@ p, h3 {
 img {
     position: relative;
     top: 10px;
-    border-radius: 10px;
     height: 400px;
     width: 300px;
     border: none;
@@ -42,17 +41,23 @@ img {
 
 .container {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 5fr 3fr;
     grid-template-rows: 100%;
-    grid-column-gap: 50px;
+    grid-column-gap: 0px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: stretch;
     align-content: center;
+    grid-auto-flow: column;
 }
 
 .introduction {
     position: relative;
-    left: 50px;
+    display: inline-block;
+    left: 0px;
     border-color: black;
-    border-radius: 20px;
+    border-radius: 0px;
     text-align: center;
     border: none;
     border: 1px solid #302830;
@@ -60,11 +65,12 @@ img {
 
 .technical {
     position: relative;
+    display: inline-block;
     background-color: black;
-    left: 150px;
+    left: 0px;
     color: white;
     border: none;
     border: 1px solid #ecbcec;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 0px;
 }
