@@ -1,0 +1,86 @@
+/* Below are the CSS rules sets for the about.html page */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --mainColor: #ff9800;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:600&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right top, #592d46, #68355a, #743e70, #7e4888, #8355a3, #8b57a8, #9358ad, #9c5ab1, #a8519d, #ae4989, #b04476, #ae4263);
+}
+
+.aboutme {
+    width: 1200px;
+    height: 550px;
+    background-image: url(/assets/comingsoon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: 'Big Shoulders Text', cursive;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+a {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+}
+
+.header {
+    position: relative;
+    top: 3vh;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: #FFFADE;
+    letter-spacing: 0.1rem;
+	transition: all 0.5s ease;
+	font-size: 1.2rem;
+}
+
+/* .top-bar-links:hover {
+    color: #FDFDFF;
+    background: #781444;
+    transition: all 0.5s ease;
+} */
