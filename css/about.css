@@ -19,7 +19,7 @@ html {
 .aboutme {
     width: 1200px;
     height: 550px;
-    background-image: url(/assets/comingsoon.png);
+    background-image: url("../assets/comingsoon.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
