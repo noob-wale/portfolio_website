@@ -115,7 +115,7 @@ a {
     margin: 10px;
 }
 
-. left-sect ul {
+.left-sect ul {
     list-style: none;
     text-align: center;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -139,9 +139,9 @@ ul li {
  
 
 .right-sect {
-    background-color: white;
+    /* background-color: white; */
     width: 55%;
-    color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -181,7 +181,7 @@ ul li {
     margin-top: 10px;
     color: #385F71;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .mywork {
@@ -213,10 +213,45 @@ ul li {
 }
 
 .mywork ul {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     list-style: square;
     text-align: left;
     font-family: 'Ubuntu Condensed', sans-serif;
+    color: #385F71;
+    font-weight: 550;
+}
+
+.myschool {
+    margin: 0 50px;
+}
+
+.myschool h2 {
+    color: #8f754f;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.myschool ul {
+    font-size: 1.1rem;
+    list-style: square;
+    text-align: left;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-bottom: 10px;
+    color: #385F71;
+    font-weight: 550;
+}
+
+.myschool h3 {
+    color: #385F71;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.myschool h4 {
+    color: #8f754f;
+    font-size: 1.1rem;
 }
 /* .twt-hov:hover {
     color: #FF6F91;
