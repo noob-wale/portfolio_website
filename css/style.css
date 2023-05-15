@@ -38,16 +38,13 @@ a {
     box-shadow: 5px 5px 10px rgb(32, 21, 61);
 }
 
-/* .header {
-    /* padding: 20px 0; */
-    /* position: relative;
-    top: 3vh; */
+.header {
+    padding: 20px 0;
+ }
 
 .left-nav {
     display: flex;
     flex-direction: row;
-    position: relative;
-    bottom: 0;
     width: 100%;
     height: 50px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -86,7 +83,6 @@ a {
     border: 2px solid white; */
     /* margin-left: 40px; */
     width: 45%;
-    margin: 40px 0;
 }
 
 .pro-img {
@@ -119,7 +115,7 @@ a {
     margin: 10px;
 }
 
-ul {
+. left-sect ul {
     list-style: none;
     text-align: center;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -146,8 +142,82 @@ ul li {
     background-color: white;
     width: 55%;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
 }
 
+.name-tag {
+    text-align: right;
+    margin: 0 50px;
+}
+
+.name-tag h1 {
+    color: #8f754f;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.name-tag h2 {
+    color: #385F71;
+    font-size: 1.5rem;
+}
+
+.mystory {
+    margin: 0 50px;
+    text-align: right;
+
+}
+
+.mystory h2 {
+    color: #8f754f;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.mystory p {
+    text-align: left;
+    margin-top: 10px;
+    color: #385F71;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mywork {
+    font-size: 1rem;
+    margin: 0 50px;
+}
+
+.mywork h2 {
+    color: #8f754f;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.mywork h3 h4 ul li {
+    text-align: left;
+}
+
+.mywork h3 {
+    color: #385F71;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.mywork h4 {
+    color: #8f754f;
+    font-size: 1.1rem;
+}
+
+.mywork ul {
+    font-size: 1.5rem;
+    list-style: square;
+    text-align: left;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
 /* .twt-hov:hover {
     color: #FF6F91;
 }
