@@ -133,8 +133,8 @@ a {
 
 
 .pro-pic {
-    width: 240px;
-    height: 367.4px;
+    width: 280px;
+    height: 367px;
     margin:  20px auto;
     border-radius: 5px;
 }
@@ -198,7 +198,7 @@ ul li {
 
 .name-tag h1 {
     color: #8f754f;
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-weight: bolder;
 }
 

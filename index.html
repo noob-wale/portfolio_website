@@ -9,9 +9,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="/app.js" async defer></script>
     <title>n00b_wale</title>
   </head>
-  <body>
+  <body onload="makeImage()">
     <div class="container">
         <div class="header">
             <div class="left-nav">
@@ -24,9 +25,14 @@
 
       <div class="main-body">
         <div class="left-sect">
-          <div class="pro-img">
-            <button class="my-btn">click to see me</button>
-            <!-- <img src="assets/wale.jpg" alt="wale" class="pro-pic" /> -->
+          <div class="pro-img" id="myImgs">
+            <button class="my-btn" onclick="makeImage()" >click to see me</button>
+            <img src="/portfolio_website/assets/wale.jpg" alt="wale" class="pro-pic">
+            <!-- <img src="/portfolio_website/assets/wale2.jpg" alt="" class="pro-pic">
+            <img src="/portfolio_website/assets/wale3.jpg" alt="" class="pro-pic">
+            <img src="/portfolio_website/assets/wale4.jpg" alt="" class="pro-pic">
+            <img src="/portfolio_website/assets/wale5.jpg" alt="" class="pro-pic"> -->
+            <!-- <img id="myPic" alt="wale" class="pro-pic" src="assets/wale.jpg"/> -->
           </div>
           <div class="tech-skills">
             <h2>technical skills</h2>
@@ -128,4 +134,6 @@
 
     </div>
   </body>
+ 
+
 </html>
